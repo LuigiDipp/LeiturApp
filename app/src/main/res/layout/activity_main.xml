@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:fontFamily="@font/amatic_sc"
+        android:text="fhfeiuwhfiuwefwe"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="245dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
