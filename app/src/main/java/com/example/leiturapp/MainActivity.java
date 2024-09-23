@@ -1,6 +1,7 @@
 package com.example.leiturapp;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
