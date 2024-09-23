@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="txtLeiturApp">
+        <item name="android:layout_width">183dp</item>
+        <item name="android:layout_height">73dp</item>
+        <item name="android:fontFamily">@font/amatica_sc</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
