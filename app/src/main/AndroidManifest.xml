@@ -13,6 +13,21 @@
         android:theme="@style/Theme.LeiturApp"
         tools:targetApi="31">
         <activity
+            android:name=".IntegrantesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EscritoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LivroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".livro_activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

@@ -16,5 +16,5 @@
         android:text="fhfeiuwhfiuwefwe"
         android:textSize="40sp"
         tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteY="138dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
