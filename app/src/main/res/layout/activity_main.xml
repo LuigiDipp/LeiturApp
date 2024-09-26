@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         style="@style/txtLeiturApp"
         android:text="LeiturApp"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,10 +20,29 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="181dp"
-        android:layout_height="211dp"
-        app:srcCompat="@drawable/icone_livro"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="258dp" />
+        android:id="@+id/imageView3"
+        android:layout_width="205dp"
+        android:layout_height="160dp"
+        android:rotation="47"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/estrela" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="208dp"
+        android:layout_height="157dp"
+        android:rotation="-116"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/estrela" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
