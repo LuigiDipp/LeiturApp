@@ -1,7 +1,6 @@
 package com.example.leiturapp;
 
 import android.os.Bundle;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -31,6 +30,5 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView3);
         Animation blinkAnimation = AnimationUtils.loadAnimation(this, R.drawable.blink);
         imageView.startAnimation(blinkAnimation);
-        
     }
 }
