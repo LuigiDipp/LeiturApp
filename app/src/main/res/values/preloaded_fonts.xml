@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/adamina</item>
+        <item>@font/alexandria_thin</item>
         <item>@font/amatica_sc</item>
+        <item>@font/bagel_fat_one</item>
+        <item>@font/bowlby_one</item>
     </array>
 </resources>

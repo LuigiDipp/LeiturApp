@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Iniciar a animação de piscar
-        ImageView imageView = findViewById(R.id.imageView3);
+        ImageView imageView = findViewById(R.id.imgEstrela);
         Animation blinkAnimation = AnimationUtils.loadAnimation(this, R.drawable.blink);
         imageView.startAnimation(blinkAnimation);
     }
