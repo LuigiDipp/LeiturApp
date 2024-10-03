@@ -8,4 +8,31 @@
     android:background="@drawable/background1"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="388dp"
+        android:layout_height="608dp"
+        android:fontFamily="sans-serif"
+        android:text="&quot;A Hora da Estrela&quot;, de Clarice Lispector, inicia-se com a apresentação de Macabéa, uma jovem nordestina que se muda para o Rio de Janeiro em busca de uma vida melhor. A narrativa é marcada pela simplicidade e pela profundidade de suas experiências cotidianas. Macabéa é uma personagem solitária e ingênua, que trabalha como datilógrafa e vive em condições precárias, sem entender plenamente as complexidades do mundo ao seu redor.\n \n O autor da história, que se revela como uma voz externa, se dirige diretamente ao leitor, comentando sobre a dificuldade de contar a vida de Macabéa. Essa meta-narrativa cria uma conexão entre a vida da protagonista e a perspectiva do narrador, que se sente quase como um observador impotente diante do destino da jovem. A linguagem é poética e introspectiva, refletindo a fragilidade e a invisibilidade de Macabéa na sociedade.\n \nÀ medida que a narrativa avança, Clarice Lispector mergulha nos pensamentos e sentimentos de Macabéa, revelando sua solidão, suas aspirações e a busca por pertencimento. Mesmo em meio à rotina monótona e à falta de perspectivas, a protagonista carrega uma esperança tênue que ressoa ao longo da obra, estabelecendo um contraste entre sua vida simples e a complexidade emocional que ela vive internamente. O início do livro estabelece não apenas o cenário, mas também a essência de uma existência marcada pela busca de significado em um mundo indiferente."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="127dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/icone_menino" />
 </androidx.constraintlayout.widget.ConstraintLayout>
