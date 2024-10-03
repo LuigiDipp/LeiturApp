@@ -40,12 +40,12 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.937" />
 
     <TextView
         android:id="@+id/txtParagrafo1"
-        android:layout_width="337dp"
-        android:layout_height="154dp"
+        android:layout_width="341dp"
+        android:layout_height="175dp"
         android:fontFamily="sans-serif"
         android:text="Embarque em uma nova experiência literária com “A Hora da Estrela”, o último romance da renomada escritora brasileira Clarice Lispector. Publicado em 1977, este livro conta a história de Macabéa, uma jovem nordestina que se muda para o Rio de Janeiro em busca de uma vida melhor"
         android:textAlignment="center"
@@ -54,9 +54,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.471" />
 
     <TextView
         android:id="@+id/txtParagrafo2"
@@ -70,9 +71,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <ImageView
         android:id="@+id/imgEstrela"
