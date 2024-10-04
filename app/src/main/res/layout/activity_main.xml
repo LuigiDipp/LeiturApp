@@ -42,49 +42,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.937" />
 
-    <TextView
-        android:id="@+id/txtParagrafo1"
-        android:layout_width="341dp"
-        android:layout_height="175dp"
-        android:fontFamily="sans-serif"
-        android:text="Embarque em uma nova experiência literária com “A Hora da Estrela”, o último romance da renomada escritora brasileira Clarice Lispector. Publicado em 1977, este livro conta a história de Macabéa, uma jovem nordestina que se muda para o Rio de Janeiro em busca de uma vida melhor"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471" />
-
-    <TextView
-        android:id="@+id/txtParagrafo2"
-        android:layout_width="337dp"
-        android:layout_height="176dp"
-        android:fontFamily="sans-serif"
-        android:text="Através de uma narrativa envolvente e introspectiva, Lispector nos convida a refletir sobre a existência, a identidade e a busca por significado em um mundo muitas vezes indiferente. “A Hora da Estrela” é uma obra-prima que combina profundidade psicológica com uma escrita única e poética"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
-
-    <ImageView
-        android:id="@+id/imgEstrela"
-        android:layout_width="109dp"
-        android:layout_height="112dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.859"
-        app:srcCompat="@drawable/star" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
