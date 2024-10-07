@@ -1,6 +1,8 @@
 package com.example.leiturapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -18,5 +20,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+        findViewById(R.id.imageButton3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela = new Intent(getApplicationContext(), MainActivity2.class);
+                startActivity(tela);
+            }
+        });
     }
+
 }
