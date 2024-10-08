@@ -21,6 +21,38 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232"
+        app:srcCompat="@drawable/foto_perfil_para_instagram_moldura_minimalista_cinza_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="326dp"
+        android:layout_height="54dp"
+        android:text="CLARICE LISPECTOR"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="266dp"
+        android:text=" Clarice Lispector foi uma escritora e jornalista brasileira, nascida em 10 de dezembro de 1920, em Tchetchelnik, na Ucrânia. Imigrou para o Brasil com sua família em 1922, estabelecendo-se no Recife. Formou-se em Direito pela Universidade Federal da Bahia, mas logo se dedicou à literatura.
+          Reconhecida por sua prosa introspectiva e inovadora, Lispector explorou temas como a identidade, a solidão e a condição feminina. Sua obra inclui romances como &quot;A Hora da Estrela&quot;, &quot;Perto do Coração Selvagem&quot; e &quot;A Paixão Segundo G.H.&quot;, além de contos e crônicas que revelam sua habilidade com a linguagem e a profundidade psicológica."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="500dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
