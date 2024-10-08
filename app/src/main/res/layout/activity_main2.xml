@@ -9,7 +9,7 @@
     tools:context=".MainActivity2">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtLivro"
         android:layout_width="388dp"
         android:layout_height="608dp"
         android:fontFamily="sans-serif"
@@ -20,19 +20,24 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.48" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="114dp"
-        android:layout_height="127dp"
+    <ImageButton
+        android:id="@+id/imgMenino"
+        android:layout_width="143dp"
+        android:layout_height="147dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:tint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/icone_menino" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

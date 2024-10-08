@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.925" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imgLivro"
         android:layout_width="172dp"
         android:layout_height="165dp"
         android:background="#00000000"
@@ -58,21 +58,21 @@
         app:srcCompat="@drawable/livro" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imgEscritora"
         android:layout_width="187dp"
         android:layout_height="165dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/txtDeslizar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
         app:layout_constraintVertical_bias="0.03"
         app:srcCompat="@drawable/escritora" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtLivro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/amatic_sc"
@@ -88,7 +88,7 @@
         app:layout_constraintVertical_bias="0.534" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtEscritora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/amatic_sc"
