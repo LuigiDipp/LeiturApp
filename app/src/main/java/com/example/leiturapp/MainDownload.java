@@ -1,6 +1,8 @@
 package com.example.leiturapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,15 @@ public class MainDownload extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        findViewById(R.id.imgVolta).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(tela);
+            }
+        });
+
+
     }
 }
