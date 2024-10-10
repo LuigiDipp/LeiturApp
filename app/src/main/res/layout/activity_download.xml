@@ -5,6 +5,7 @@
     android:id="@+id/MainDownload"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background1"
     tools:context=".download">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
