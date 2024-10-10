@@ -51,11 +51,11 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/txtDeslizar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
-        app:layout_constraintVertical_bias="0.03"
-        app:srcCompat="@drawable/livro" />
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="@drawable/icone_livro" />
 
     <ImageButton
         android:id="@+id/imgEscritora"
@@ -69,38 +69,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
         app:layout_constraintVertical_bias="0.03"
-        app:srcCompat="@drawable/escritora" />
+        app:srcCompat="@drawable/icone_escritora" />
 
-    <TextView
-        android:id="@+id/txtLivro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/amatic_sc"
-        android:text="Livro"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:textStyle="bold"
+    <ImageButton
+        android:id="@+id/imgPersonagens"
+        android:layout_width="174dp"
+        android:layout_height="179dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.672"
+        app:srcCompat="@drawable/icone_personagens" />
 
-    <TextView
-        android:id="@+id/txtEscritora"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/amatic_sc"
-        android:text="Escritora"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:textStyle="bold"
+    <ImageButton
+        android:id="@+id/imgDownload"
+        android:layout_width="183dp"
+        android:layout_height="181dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.674"
+        app:srcCompat="@drawable/icone_download" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

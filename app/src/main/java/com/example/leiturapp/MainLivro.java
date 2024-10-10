@@ -6,24 +6,22 @@ import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainLivro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_livro);
 
-        findViewById(R.id.imgMenino).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.imgVolta).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent tela = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(tela);
             }
         });
+
     }
 }

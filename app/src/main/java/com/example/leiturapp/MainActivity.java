@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.imgEscritora).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela = new Intent(getApplicationContext(), biogradia.class);
+                Intent tela = new Intent(getApplicationContext(), MainEscritora.class);
                 startActivity(tela);
             }
         });
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.imgLivro).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela = new Intent(getApplicationContext(), MainActivity2.class);
+                Intent tela = new Intent(getApplicationContext(), MainLivro.class);
                 startActivity(tela);
             }
         });

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainEscritora">
+
+    <TextView
+        android:id="@+id/txtAutora"
+        android:layout_width="288dp"
+        android:layout_height="79dp"
+        android:fontFamily="@font/bowlby_one"
+        android:text="AUTORA"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <ImageView
+        android:id="@+id/imgClarice"
+        android:layout_width="255dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        app:srcCompat="@drawable/imgclarice" />
+
+    <TextView
+        android:id="@+id/txtClariceLispector"
+        android:layout_width="235dp"
+        android:layout_height="106dp"
+        android:fontFamily="@font/bowlby_one"
+        android:text="CLARICE \n LISPECTOR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <TextView
+        android:id="@+id/txtBiografia"
+        android:layout_width="354dp"
+        android:layout_height="315dp"
+        android:text=" Clarice Lispector foi uma escritora e jornalista brasileira, nascida em 10 de dezembro de 1920, em Tchetchelnik, na Ucrânia. Imigrou para o Brasil com sua família em 1922, estabelecendo-se no Recife. Formou-se em Direito pela Universidade Federal da Bahia, mas logo se dedicou à literatura. \n \n Reconhecida por sua prosa introspectiva e inovadora, Lispector explorou temas como a identidade, a solidão e a condição feminina. Sua obra inclui romances como &quot;A Hora da Estrela&quot;, &quot;Perto do Coração Selvagem&quot; e &quot;A Paixão Segundo G.H.&quot;, além de contos e crônicas que revelam sua habilidade com a linguagem e a profundidade psicológica."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <ImageButton
+        android:id="@+id/imgVolta"
+        android:layout_width="84dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#00FFFFFF"
+        android:rotation="90"
+        android:scaleType="centerInside"
+        android:src="@drawable/icone_volta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
