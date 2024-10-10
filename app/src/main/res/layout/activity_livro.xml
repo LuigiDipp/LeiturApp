@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainLivro">
+
+    <TextView
+        android:id="@+id/txtLivro"
+        android:layout_width="381dp"
+        android:layout_height="387dp"
+        android:fontFamily="sans-serif"
+        android:text="&quot;A Hora da Estrela&quot;, de Clarice Lispector, inicia-se com a apresentação de Macabéa, uma jovem nordestina que se muda para o Rio de Janeiro em busca de uma vida melhor. A narrativa é marcada pela simplicidade e pela profundidade de suas experiências cotidianas. Macabéa é uma personagem solitária e ingênua, que trabalha como datilógrafa e vive em condições precárias, sem entender plenamente as complexidades do mundo ao seu redor.\n \n história, que se revela como uma voz externa, se dirige diretamente ao leitor, comentando sobre a dificuldade de contar a vida de Macabéa. Essa meta-narrativa cria uma conexão entre a vida da protagonista e a perspectiva do narrador, que se sente quase como um observador impotente diante do destino da jovem. A linguagem é poética e introspectiva, refletindo a fragilidade e a invisibilidade de Macabéa na sociedade.\n \n"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <ImageButton
+        android:id="@+id/imgVolta"
+        android:layout_width="84dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#00FFFFFF"
+        android:rotation="90"
+        android:scaleType="centerInside"
+        android:src="@drawable/icone_volta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,13 +13,13 @@
         android:theme="@style/Theme.LeiturApp"
         tools:targetApi="31">
         <activity
-            android:name=".biogradia"
+            android:name=".MainEscritora"
             android:exported="false" />
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".MainLivro"
             android:exported="false" />
         <activity
             android:name=".IntegrantesActivity"
