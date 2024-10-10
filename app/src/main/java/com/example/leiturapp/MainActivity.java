@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityOptionsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent tela = new Intent(getApplicationContext(), MainEscritora.class);
-                startActivity(tela);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+                startActivity(tela, options.toBundle());
             }
         });
 
@@ -27,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent tela = new Intent(getApplicationContext(), MainLivro.class);
-                startActivity(tela);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+                startActivity(tela, options.toBundle());
             }
         });
     }
