@@ -1,4 +1,4 @@
-<!-- move_left.xml -->
+<!-- fade_in.xml -->
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
     android:fromXDelta="100%p"
     android:toXDelta="0%p"

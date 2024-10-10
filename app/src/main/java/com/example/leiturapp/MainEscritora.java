@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.app.ActivityOptionsCompat;
 
 public class MainEscritora extends AppCompatActivity {
 
@@ -28,7 +29,8 @@ public class MainEscritora extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent tela = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(tela);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainEscritora.this, view, "fade_in");
+                startActivity(tela, options.toBundle());
             }
         });
 
