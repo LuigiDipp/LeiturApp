@@ -10,7 +10,7 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityOptionsCompat;
 
-public class MainActivity extends AppCompatActivity implements GestureDetector.OnGestureListener {
+public class MainActivity3 extends AppCompatActivity implements GestureDetector.OnGestureListener {
 
     private GestureDetector gestureDetector;
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main3);
 
         gestureDetector = new GestureDetector(this, this);
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
             @Override
             public void onClick(View view) {
                 Intent tela = new Intent(getApplicationContext(), MainEscritora.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity3.this, view, "fade_in");
                 startActivity(tela, options.toBundle());
             }
         });
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
             @Override
             public void onClick(View view) {
                 Intent tela = new Intent(getApplicationContext(), MainLivro.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity3.this, view, "fade_in");
                 startActivity(tela, options.toBundle());
             }
         });
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
             // Arrastar para cima
             View view = findViewById(R.id.main);
             Intent tela = new Intent(getApplicationContext(), MainActivity3.class);
-            ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+            ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity3.this, view, "fade_in");
             startActivity(tela, options.toBundle());
             return true;
         }
@@ -74,5 +74,4 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
 
     @Override
     public void onLongPress(MotionEvent e) {}
-
 }

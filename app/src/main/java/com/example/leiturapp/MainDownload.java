@@ -1,7 +1,6 @@
 package com.example.leiturapp;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -23,12 +22,6 @@ public class MainDownload extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        findViewById(R.id.livrobaixar).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goToUrl("https://www.escolahenriquemedina.org/bibdigital/view/1642/A%20Hora%20da%20Estrela%20-%20Clarice%20Lispector.pdf");
-            }
-        });
 
         findViewById(R.id.imgVolta).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,10 +34,4 @@ public class MainDownload extends AppCompatActivity {
 
 
     }
-    private void goToUrl (String url) {
-        Uri uriUrl = Uri.parse(url);
-        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-        startActivity(launchBrowser);
-    }
 }
-
