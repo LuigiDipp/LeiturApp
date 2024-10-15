@@ -31,6 +31,15 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
             }
         });
 
+        findViewById(R.id.imgPersonagens).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela = new Intent(getApplicationContext(), MainPersonagens.class);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+                startActivity(tela, options.toBundle());
+            }
+        });
+
         findViewById(R.id.imgLivro).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,8 +48,16 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
                 startActivity(tela, options.toBundle());
             }
         });
-    }
 
+        findViewById(R.id.imgDownload).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela = new Intent(getApplicationContext(), MainDownload.class);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
+                startActivity(tela, options.toBundle());
+            }
+        });
+    }
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
         if (e1.getY() - e2.getY() > 50) {
@@ -76,3 +93,4 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
     public void onLongPress(MotionEvent e) {}
 
 }
+

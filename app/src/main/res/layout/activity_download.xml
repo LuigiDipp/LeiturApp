@@ -54,4 +54,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.845" />
 
+    <ImageView
+        android:id="@+id/imgBAIXAR"
+        android:layout_width="249dp"
+        android:layout_height="331dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/livro_baixar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
