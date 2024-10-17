@@ -20,7 +20,7 @@ public class MainLivro extends AppCompatActivity {
 
         // Aplicar animação de piscar
         View estrela = findViewById(R.id.imgEstrela);
-        Animation blinkAnimation = AnimationUtils.loadAnimation(this, R.anim.blink);
+        Animation blinkAnimation = AnimationUtils.loadAnimation(this, R.anim.fade_in);
         estrela.startAnimation(blinkAnimation);
 
         findViewById(R.id.imgVolta).setOnClickListener(new View.OnClickListener() {
