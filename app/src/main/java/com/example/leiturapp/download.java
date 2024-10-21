@@ -46,6 +46,3 @@ public class download extends AppCompatActivity {
         startActivity(launchBrowser);
     }
 }
-
-    }
-}
