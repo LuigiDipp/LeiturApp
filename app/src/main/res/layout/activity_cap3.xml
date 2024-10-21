@@ -18,8 +18,18 @@
         android:src="@drawable/icone_volta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textocap3"
+        android:layout_width="387dp"
+        android:layout_height="528dp"
+        android:text="Capítulo 3: Macabéa começa a se relacionar com Olímpico, um colega de trabalho. Olímpico é descrito como alguém que, apesar de aparentar ser simpático e atencioso no início, acaba se mostrando um homem superficial e egoísta. Ele a vê apenas como uma diversão e, no fundo, despreza a ingenuidade dela. Mesmo assim, Macabéa se sente feliz com a atenção mínima que ele lhe dá, acreditando que encontrou seu grande amor. Esse relacionamento revela mais sobre a fragilidade emocional da protagonista e a sua incapacidade de se dar conta da própria condição de ser tratada com desdém."
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="150dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

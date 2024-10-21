@@ -18,8 +18,18 @@
         android:src="@drawable/icone_volta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textocap2"
+        android:layout_width="373dp"
+        android:layout_height="553dp"
+        android:text="Capítulo 2: Neste capítulo, o narrador se aprofunda na descrição da vida cotidiana de Macabéa, destacando sua ausência de sonhos e aspirações. Ela é simples, sem grandes desejos ou questionamentos sobre sua própria existência. Para ela, viver é apenas &quot;sobreviver&quot;. Ela não tem amigos próximos e suas relações, quando existem, são superficiais. A personagem é descrita como ingênua, com pouca consciência de seu lugar no mundo. Seu maior desejo, no entanto, é encontrar um namorado. O narrador, por sua vez, reflete sobre como a vida de Macabéa é marcada pela passividade e pelo conformismo, o que a torna uma figura triste e desamparada."
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="131dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
