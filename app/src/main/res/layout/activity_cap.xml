@@ -65,43 +65,7 @@
         android:layout_height="74dp"
         android:backgroundTint="#1D335F"
         android:text="Capítulo 5"
-        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="358dp" />
-
-    <Button
-        android:id="@+id/btnCap6"
-        android:layout_width="135dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#1D335F"
-        android:text="Capítulo 6"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="358dp" />
-
-    <Button
-        android:id="@+id/btnCap7"
-        android:layout_width="135dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#1D335F"
-        android:text="Capítulo 7"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="470dp" />
-
-    <Button
-        android:id="@+id/btnCap8"
-        android:layout_width="135dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#1D335F"
-        android:text="Capítulo 8"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="470dp" />
-
-    <Button
-        android:id="@+id/btnCap9"
-        android:layout_width="135dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#1D335F"
-        android:text="Capítulo 9"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="578dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
