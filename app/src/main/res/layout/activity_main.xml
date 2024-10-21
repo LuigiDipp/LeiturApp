@@ -27,21 +27,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.192" />
 
-    <TextView
-        android:id="@+id/txtDeslizar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/bagel_fat_one"
-        android:text="Deslize para começar!"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.925" />
-
     <ImageButton
         android:id="@+id/imgLivro"
         android:layout_width="172dp"
@@ -49,12 +34,10 @@
         android:background="#00000000"
         android:cropToPadding="true"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/txtDeslizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
-        app:layout_constraintVertical_bias="0.033"
         app:srcCompat="@drawable/icone_livro" />
 
     <ImageButton
@@ -63,12 +46,10 @@
         android:layout_height="165dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDeslizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
-        app:layout_constraintVertical_bias="0.03"
         app:srcCompat="@drawable/icone_escritora" />
 
     <ImageButton
@@ -79,10 +60,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672"
+        app:layout_constraintVertical_bias="0.829"
         app:srcCompat="@drawable/icone_personagens" />
 
     <ImageButton
@@ -93,10 +74,22 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674"
+        app:layout_constraintVertical_bias="0.832"
         app:srcCompat="@drawable/icone_download" />
+
+    <ImageButton
+        android:id="@+id/imgVai"
+        android:layout_width="97dp"
+        android:layout_height="85dp"
+        android:background="#00FFFFFF"
+        android:rotation="266"
+        android:rotationY="0"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone_volta"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="790dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

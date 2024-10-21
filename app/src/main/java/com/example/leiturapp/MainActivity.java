@@ -55,42 +55,14 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
                 Intent tela = new Intent(getApplicationContext(), MainDownload.class);
                 ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
                 startActivity(tela, options.toBundle());
+
+                findViewById(R.id.imgVai).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent tela = new Intent(getApplicationContext(), MainActivity.class);
+                        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainCapitulos.this, view, "fade_in");
+                        startActivity(tela, options.toBundle());
             }
+
         });
     }
-    @Override
-    public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-        if (e1.getY() - e2.getY() > 50) {
-            // Arrastar para cima
-            View view = findViewById(R.id.main);
-            Intent tela = new Intent(getApplicationContext(), MainActivity3.class);
-            ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
-            startActivity(tela, options.toBundle());
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    public boolean onDown(MotionEvent e) {
-        return true;
-    }
-
-    @Override
-    public void onShowPress(MotionEvent e) {}
-
-    @Override
-    public boolean onSingleTapUp(MotionEvent e) {
-        return false;
-    }
-
-    @Override
-    public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-        return false;
-    }
-
-    @Override
-    public void onLongPress(MotionEvent e) {}
-
-}
-
