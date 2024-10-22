@@ -22,4 +22,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/macab_a"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="287dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
