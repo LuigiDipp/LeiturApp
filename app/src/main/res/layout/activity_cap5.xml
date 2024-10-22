@@ -30,6 +30,6 @@
         android:text="Capítulo 5: O final do livro é trágico: Macabéa é atropelada por um carro enquanto caminhava pelas ruas do Rio de Janeiro. Sua morte é descrita de forma impessoal, como se fosse uma simples consequência do destino que lhe foi imposto, sem grandes emoções. No entanto, essa morte traz uma espécie de &quot;alívio&quot; para a protagonista, que finalmente escapa de uma vida sem perspectivas e de um sofrimento que ela mal compreendia. O narrador reflete sobre a fragilidade da vida humana e sobre como pessoas como Macabéa são muitas vezes esquecidas pela sociedade, que prefere ignorá-las. O livro termina com uma reflexão filosófica do narrador sobre o que significa &quot;existir&quot; e o que é a &quot;hora da estrela&quot;, a hora em que a protagonista, de forma trágica e quase irônica, se torna visível ao mundo, mas já sem vida."
         android:textColor="@color/white"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="134dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="92dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
