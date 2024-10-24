@@ -38,4 +38,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="383dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/bowlby_one"
+        android:text="CAPÍTULO 5"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="395dp"
+        android:layout_height="433dp"
+        android:text="O final do livro é trágico: Macabéa é atropelada por um carro enquanto caminhava pelas ruas do Rio de Janeiro. Sua morte é descrita de forma impessoal, como se fosse uma simples consequência do destino que lhe foi imposto, sem grandes emoções. No entanto, essa morte traz uma espécie de &quot;alívio&quot; para a protagonista, que finalmente escapa de uma vida sem perspectivas e de um sofrimento que ela mal compreendia. O narrador reflete sobre a fragilidade da vida humana e sobre como pessoas como Macabéa são muitas vezes esquecidas pela sociedade, que prefere ignorá-las. O livro termina com uma reflexão filosófica do narrador sobre o que significa &quot;existir&quot; e o que é a &quot;hora da estrela&quot;, a hora em que a protagonista, de forma trágica e quase irônica, se torna visível ao mundo, mas já sem vida."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
 </androidx.constraintlayout.widget.ConstraintLayout>

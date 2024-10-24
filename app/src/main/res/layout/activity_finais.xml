@@ -22,4 +22,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:background="#00E7E6E6"
+        android:backgroundTint="#00DEDEDE"
+        android:fontFamily="@font/bowlby_one"
+        android:text="CONSIDERAÇÕES FINAIS"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="384dp"
+        android:layout_height="454dp"
+        android:text="Em &quot;A Hora da Estrela&quot;, Clarice Lispector explora temas como a solidão, a alienação e a condição da mulher na sociedade. A personagem de Macabéa é retratada como alguém que vive uma vida de invisibilidade e resignação, mas cuja tragédia existe também como uma forma de expor a desigualdade e a indiferença do mundo em relação aos marginalizados. O narrador se distancia, mas também se envolve emocionalmente com a personagem, e suas reflexões filosóficas sobre o sentido da vida e a condição humana são cruciais para a estrutura do romance."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
 </androidx.constraintlayout.widget.ConstraintLayout>
