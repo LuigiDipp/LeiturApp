@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/cap2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background1"
@@ -13,7 +13,7 @@
         android:layout_width="97dp"
         android:layout_height="85dp"
         android:background="#00FFFFFF"
-        android:rotation="266"
+        android:rotation="270"
         android:rotationY="0"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,13 +41,32 @@
 
     <TextView
         android:id="@+id/textocap1"
-        android:layout_width="386dp"
-        android:layout_height="613dp"
-        android:text="Capítulo 1: O narrador, Rodrigo S. M., começa contando a história de Macabéa, uma jovem nordestina de 19 anos que veio para o Rio de Janeiro em busca de uma vida melhor. No entanto, sua vida é marcada por uma rotina monótona e sem grandes expectativas. Macabéa trabalha como datilógrafa e vive em condições precárias, em uma pensão barata. O narrador descreve como ela é praticamente invisível para a sociedade, passando despercebida por todos, inclusive por si mesma. A narração, por vezes, se distancia, com o narrador se posicionando como observador e, em outros momentos, se envolvendo com seus próprios sentimentos sobre a personagem. Ele também revela que, apesar de Macabéa não ser bonita, ela não se importa com isso."
+        android:layout_width="380dp"
+        android:layout_height="557dp"
+        android:text="O narrador, Rodrigo S. M., começa contando a história de Macabéa, uma jovem nordestina de 19 anos que veio para o Rio de Janeiro em busca de uma vida melhor. No entanto, sua vida é marcada por uma rotina monótona e sem grandes expectativas. Macabéa trabalha como datilógrafa e vive em condições precárias, em uma pensão barata. O narrador descreve como ela é praticamente invisível para a sociedade, passando despercebida por todos, inclusive por si mesma. A narração, por vezes, se distancia, com o narrador se posicionando como observador e, em outros momentos, se envolvendo com seus próprios sentimentos sobre a personagem. Ele também revela que, apesar de Macabéa não ser bonita, ela não se importa com isso."
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bowlby_one"
+        android:text="Capítulo 1"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
 </androidx.constraintlayout.widget.ConstraintLayout>

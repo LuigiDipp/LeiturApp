@@ -18,10 +18,10 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.103" />
 
     <ImageView
         android:id="@+id/imgClarice"
@@ -29,16 +29,16 @@
         android:layout_height="221dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178"
+        app:layout_constraintVertical_bias="0.244"
         app:srcCompat="@drawable/imgclarice" />
 
     <TextView
         android:id="@+id/txtClariceLispector"
-        android:layout_width="279dp"
-        android:layout_height="132dp"
+        android:layout_width="274dp"
+        android:layout_height="108dp"
         android:fontFamily="@font/bowlby_one"
         android:text="CLARICE \n LISPECTOR"
         android:textAlignment="center"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="0.492" />
 
     <TextView
         android:id="@+id/txtBiografia"
@@ -65,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.892" />
+        app:layout_constraintVertical_bias="0.836" />
 
     <ImageButton
         android:id="@+id/imgVolta"

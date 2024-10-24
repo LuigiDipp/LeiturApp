@@ -18,7 +18,7 @@ public class cap1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_cap1);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.cap2), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -34,7 +34,7 @@ public class cap1 extends AppCompatActivity {
         findViewById(R.id.imgVai).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela = new Intent(getApplicationContext(), cap1.class);
+                Intent tela = new Intent(getApplicationContext(), cap2.class);
                 ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(cap1.this, view, "fade_in");
                 startActivity(tela, options.toBundle());
             }
