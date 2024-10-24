@@ -30,6 +30,8 @@
         android:text="Capítulo 1: O narrador, Rodrigo S. M., começa contando a história de Macabéa, uma jovem nordestina de 19 anos que veio para o Rio de Janeiro em busca de uma vida melhor. No entanto, sua vida é marcada por uma rotina monótona e sem grandes expectativas. Macabéa trabalha como datilógrafa e vive em condições precárias, em uma pensão barata. O narrador descreve como ela é praticamente invisível para a sociedade, passando despercebida por todos, inclusive por si mesma. A narração, por vezes, se distancia, com o narrador se posicionando como observador e, em outros momentos, se envolvendo com seus próprios sentimentos sobre a personagem. Ele também revela que, apesar de Macabéa não ser bonita, ela não se importa com isso."
         android:textColor="@color/white"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="109dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

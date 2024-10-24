@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         findViewById(R.id.imgVai).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela = new Intent(getApplicationContext(), MainActivity.class);
+                Intent tela = new Intent(getApplicationContext(), cap1.class);
                 ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, view, "fade_in");
                 startActivity(tela, options.toBundle());
             }

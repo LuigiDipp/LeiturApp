@@ -30,6 +30,8 @@
         android:text="Capítulo 4: Neste ponto da narrativa, a saúde de Macabéa começa a deteriorar-se, pois ela é diagnosticada com tuberculose. Isso desencadeia uma série de reflexões sobre a finitude da vida e a falta de cuidados que ela tem consigo mesma. Macabéa, que já não tem muito amor-próprio, começa a se apegar a superstições e crenças populares em busca de consolo, como ler horóscopos ou acreditar em orações e amuletos. Sua condição de saúde piora, mas, mesmo assim, ela não faz nada para mudar sua situação. Nesse momento, o narrador também começa a se questionar sobre o seu papel de escritor e sobre o destino de suas personagens, refletindo sobre o sentido da vida de Macabéa e, por consequência, o sentido da vida como um todo."
         android:textColor="@color/white"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="136dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

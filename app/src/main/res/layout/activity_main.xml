@@ -88,8 +88,12 @@
         android:rotation="266"
         android:rotationY="0"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/icone_volta"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="790dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/icone_volta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

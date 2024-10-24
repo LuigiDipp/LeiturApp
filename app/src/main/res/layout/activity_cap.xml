@@ -14,8 +14,12 @@
         android:layout_height="74dp"
         android:backgroundTint="#1D335F"
         android:text="Capítulo 1"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="148dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
 
     <ImageButton
         android:id="@+id/imgVolta"
@@ -38,8 +42,12 @@
         android:layout_height="74dp"
         android:backgroundTint="#1D335F"
         android:text="Capítulo3"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="247dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
 
     <Button
         android:id="@+id/btnCap3"
@@ -47,8 +55,12 @@
         android:layout_height="74dp"
         android:backgroundTint="#1D335F"
         android:text="Capítulo 2"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="148dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
 
     <Button
         android:id="@+id/btnCap4"
@@ -56,8 +68,12 @@
         android:layout_height="74dp"
         android:backgroundTint="#1D335F"
         android:text="Capítulo 4"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="247dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
 
     <Button
         android:id="@+id/btnCap5"
@@ -65,7 +81,11 @@
         android:layout_height="74dp"
         android:backgroundTint="#1D335F"
         android:text="Capítulo 5"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="358dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
