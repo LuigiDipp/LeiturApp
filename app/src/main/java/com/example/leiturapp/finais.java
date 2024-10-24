@@ -11,14 +11,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class cap2 extends AppCompatActivity {
+public class finais extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_cap2);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.cap2), (v, insets) -> {
+        setContentView(R.layout.activity_finais);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.finais), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -26,20 +26,10 @@ public class cap2 extends AppCompatActivity {
         findViewById(R.id.imgVolta).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela = new Intent(getApplicationContext(), cap1.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(cap2.this, view, "fade_in");
+                Intent tela = new Intent(getApplicationContext(), cap5.class);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(finais.this, view, "fade_in");
                 startActivity(tela, options.toBundle());
             }
         });
-        findViewById(R.id.imgVai).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent tela = new Intent(getApplicationContext(), cap3.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(cap2.this, view, "fade_in");
-                startActivity(tela, options.toBundle());
-            }
-        });
-
     }
-
 }
