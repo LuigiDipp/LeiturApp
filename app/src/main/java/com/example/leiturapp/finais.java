@@ -1,6 +1,7 @@
 package com.example.leiturapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,5 +32,18 @@ public class finais extends AppCompatActivity {
                 startActivity(tela, options.toBundle());
             }
         });
+        findViewById(R.id.joinha).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToUrl("https://br.freepik.com/fotos-vetores-gratis/homem-fazendo-sinal-de-positivo");
+            }
+            private void goToUrl (String url) {
+                Uri uriUrl = Uri.parse(url);
+                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+                startActivity(launchBrowser);
+            }
+        });
+
+
     }
 }
