@@ -31,6 +31,15 @@ public class cap1 extends AppCompatActivity {
                 startActivity(tela, options.toBundle());
             }
         });
+        findViewById(R.id.imgVai).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela = new Intent(getApplicationContext(), cap1.class);
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(cap1.this, view, "fade_in");
+                startActivity(tela, options.toBundle());
+            }
+        });
+
 
     }
 
